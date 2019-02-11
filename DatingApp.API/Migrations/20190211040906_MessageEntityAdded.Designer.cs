@@ -36,7 +36,7 @@ namespace DatingApp.API.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Context");
+                    b.Property<string>("Content");
 
                     b.Property<DateTime>("DateRead");
 

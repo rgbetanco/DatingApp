@@ -22,6 +22,7 @@ export class ListComponent implements OnInit {
     private alertify: AlertifyService) { }
 
   ngOnInit() {
+
     this.route.data.subscribe(data => {
       this.users = data['users'].result;
       this.pagination = data['users'].pagination;

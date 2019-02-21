@@ -1,0 +1,30 @@
+{
+    "deploy": {
+      "packages": [
+        {
+          "name": "Version 1.0",
+          "description": "Dating App Version 1.0",
+          "files": ["DatingApp.API/bin/Debug/netcoreapp2.2/publish/**"]
+        }
+      ],
+      "targets": [
+        {
+          "type": "sftp",
+          "name": "Linux",
+          "description": "Home server",
+          "dir": "/var/datingapp",
+          "mappings": [
+              {
+                  "source": "/DatingApp.API/bin/Debug/netcoreapp2.2/publish",
+                  "target": "/"
+              }
+          ],
+          "host": "rgbetanco.net",
+          "port": 22,
+          "user": "rgbetanco", "password": "pliocene",
+          "checkBeforeDeploy": true
+        }
+      ]
+    }
+  }
+  

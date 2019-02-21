@@ -12,7 +12,7 @@ import { AlertifyService } from '../_services/alertify.service';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  users: User;
+  users: User[];
   pagination: Pagination;
   likesParam: string;
 

@@ -5,7 +5,10 @@
   
     <div>
       <label for="heroName">
-        <input [(ngModel)]="hero.name" type="text" name="heroName" placeholder="name">
+        <input class="w3-margin-bottom" [(ngModel)]="hero.name" type="text" name="heroName" placeholder="name">
       </label>
     </div>
   </div>
+
+  <button class="w3-button w3-black w3-round" (click)="goBack()">Go Back</button>
+  <button class="w3-button w3-yellow w3-round w3-margin-left" (click)="save()"><i class="fa fa-plus-circle">Save</i></button>

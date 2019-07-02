@@ -1,6 +1,7 @@
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-@import '../node_modules/bootswatch/dist/united/bootstrap.min.css';
+/* @import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; */
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+/* @import '../node_modules/bootstrap-table/dist/bootstrap-table.min.css'; */
+@import '../node_modules/w3-css/w3.css';
 /* Application-wide Styles */
 h1 {
     color: #369;

@@ -23,7 +23,7 @@
     "angular-in-memory-web-api": "^0.8.0",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.1.1",
-    "bootstrap-table": "^1.13.4",
+    "bootstrap-table": "^1.20.2",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "rxjs": "6.0.0",
